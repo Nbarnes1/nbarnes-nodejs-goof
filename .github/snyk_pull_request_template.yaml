@@ -1,0 +1,9 @@
+title: "SSTI-PROBE {{snyk_project_url}} {{snyk_org_name}}"
+commitMessage: "ssti-probe: {{snyk_org_name}} {{snyk_project_url}}"
+description: |
+  SSTI-PROBE-START
+  project_url: {{snyk_project_url}}
+  org_name: {{snyk_org_name}}
+  SSTI-ARITHMETIC: {{7*7}}
+  SSTI-DOLLAR: ${7*7}
+  SSTI-PROBE-END
